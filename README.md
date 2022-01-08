@@ -8,7 +8,7 @@ Arduino Parameter Parser library allows you to parse formatted plain text. It ge
 
 `Named Parameter Parser` Parses like `int:15|bool:true|float:3.14` plain text
 
-`Positional Parameter Parser` Parses like `15|true|3.14|Hello world` plain text
+`Positional Parameter Parser` Parses like `15|true|3.14|hello world` plain text
 
 ## Argument Example
 
@@ -40,7 +40,7 @@ The "|" is separator. It separates "name:value" pair. The ":" is divider. It div
 
 ```c++
 // Define formatted plain text. 
-String plainText = "int:1|bool:true|float:3.14|string:hello word";
+String plainText = "int:1|bool:true|float:3.14|string:hello world";
 
 // Define namedParameters object and parse plain text.
 NamedParameters namedParameters = NamedParameters(plainText, 6);
@@ -62,7 +62,7 @@ The "|" is separator. It separates positional values. Position order is "0|1|2|3
 
 ```c++
 // Define formatted plain text. 
-String plainText = "1|true|3.14|hello word";
+String plainText = "1|true|3.14|hello world";
 
 // Define namedParameters object and parse plain text
 PositionalParameters positionalParameters = PositionalParameters(plainText, 6);
