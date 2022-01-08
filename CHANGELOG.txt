@@ -1,0 +1,3 @@
+*2022-01-08 1.0.0
+
+First publish. That's all for now :]

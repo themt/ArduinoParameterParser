@@ -1,0 +1,25 @@
+{
+    "authors": [
+        {
+            "maintainer": true,
+            "name": "Murat TAMCI",
+            "url": "https://github.com/themt-co"
+        }
+    ],
+    "description": "Arduino Parameter Parser library allows you to parse formatted plain text. It generates data. Data types can be integer, boolean, float or string. You can fetch data with name or index number.",
+    "export": {
+        "exclude": [
+            
+        ]
+    },
+    "frameworks": "arduino",
+    "keywords": "argument, named, positioned, parser, plain text",
+    "license": "MIT License",
+    "name": "ArduinoParameterParser",
+    "platforms": "atmelavr, espressif8266, espressif32",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/themt-co/ArduinoParameterParser.git"
+    },
+    "version": "1.0.0"
+}
