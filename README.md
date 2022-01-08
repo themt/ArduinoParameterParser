@@ -2,6 +2,8 @@
 
 Arduino Parameter Parser library allows you to parse formatted plain text. It generates data. Data types can be integer, boolean, float or string.  You can fetch data with name or index number. 
 
+![](files/arduino-parameter-parser.jpg)
+
 ## Parser Types
 
 `Argument Parameter Parser` Parses like `-a 15 -b true -c 3.14` plain text
